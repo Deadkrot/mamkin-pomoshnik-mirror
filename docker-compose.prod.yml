@@ -1,0 +1,9 @@
+services:
+  bot:
+    image: ghcr.io/deadkrot/mamkin-pomoshnik:${TAG:-latest}
+    env_file: .env
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+    environment:
+      - TZ=${TZ}

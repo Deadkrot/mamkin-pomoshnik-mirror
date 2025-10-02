@@ -1,0 +1,8 @@
+app:
+  tz: "Europe/Amsterdam"
+  default_feeds_per_day: 6
+  notify:
+    ahead_minutes: 15
+    at_event: true
+
+# Можно вынести возрастные правила сюда в будущем

@@ -1,0 +1,22 @@
+# env/секреты
+.env
+*.env
+config/config.local.yml
+config/*.secret.yml
+
+# локальные данные/БД/логи
+data/
+*.sqlite3
+*.db
+*.log
+
+# артефакты
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+.env
+*.env
+data/
+config/config.local.yml
